@@ -1,0 +1,59 @@
+let aluno = ("Gianluca");
+
+let gnota1, gnota2, gnota3, media1;
+
+gnota1 = Number(prompt("Digite a primeira nota"));
+gnota2 = Number(prompt("Digite a segunda nota"));
+gnota3 = Number(prompt("Digite a terceira nota"));
+
+media1 = (gnota1+gnota2+gnota3)/3;
+
+console.log("A media de gianluca é:"+(media1));
+
+if (media1 >= 6) {
+  console.log("Aluno aprovado");
+}else{
+  if (media1 <= 5) {
+    console.log("Aluno reprovado");
+  }
+}
+
+let aluno2 = ("Gabriel");
+
+let gbnota1, gbnota2, gbnota3, media2;
+
+gbnota1 = Number(prompt("Digite a primeira nota"));
+gbnota2 = Number(prompt("Digite a segunda nota"));
+gbnota3 = Number(prompt("Digite a terceira nota"));
+
+media2 = (gbnota1+gbnota2+gbnota3)/3;
+
+console.log("A media de gabriel é:"+(media2));
+
+if (media2 >= 6) {
+  console.log("Aluno aprovado");
+}else{
+  if (media2 <= 5) {
+    console.log("Aluno reprovado");
+  }
+}
+
+let aluno3 = ("Gabriely");
+
+let gbynota1, gbynota2, gbynota3, media3;
+
+gbynota1 = Number(prompt("Digite a primeira nota"));
+gbynota2 = Number(prompt("Digite a segunda nota"));
+gbynota3 = Number(prompt("Digite a terceira nota"));
+
+media3 = (gbynota1+gbynota2+gbynota3)/3;
+
+console.log("A media de gabriely é:"+(media3));
+
+if (media3 >= 6) {
+  console.log("Aluno aprovado");
+}else{
+  if (media3 <= 5) {
+    console.log("Aluno reprovado");
+  }
+}
